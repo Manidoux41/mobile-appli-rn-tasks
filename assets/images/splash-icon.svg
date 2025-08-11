@@ -1,0 +1,39 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="url(#backgroundGradient)"/>
+  
+  <!-- Main Logo (centered) -->
+  <g transform="translate(312, 312)">
+    <circle cx="200" cy="200" r="180" fill="url(#logoGradient)" stroke="#FFFFFF" stroke-width="8"/>
+    
+    <!-- Checkmark Icon -->
+    <circle cx="200" cy="170" r="70" fill="#FFFFFF" opacity="0.95"/>
+    <path d="M170 170L190 190L230 150" stroke="#2563EB" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- List Lines -->
+    <rect x="130" y="250" width="140" height="6" rx="3" fill="#FFFFFF"/>
+    <rect x="130" y="270" width="110" height="6" rx="3" fill="#FFFFFF" opacity="0.8"/>
+    <rect x="130" y="290" width="120" height="6" rx="3" fill="#FFFFFF" opacity="0.6"/>
+    
+    <!-- Small decorative circles -->
+    <circle cx="115" cy="253" r="4" fill="#FFFFFF"/>
+    <circle cx="115" cy="273" r="4" fill="#FFFFFF" opacity="0.8"/>
+    <circle cx="115" cy="293" r="4" fill="#FFFFFF" opacity="0.6"/>
+  </g>
+  
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="backgroundGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1E3A8A;stop-opacity:1" />
+      <stop offset="30%" style="stop-color:#2563EB;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#3B82F6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#60A5FA;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#2563EB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1D4ED8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>
