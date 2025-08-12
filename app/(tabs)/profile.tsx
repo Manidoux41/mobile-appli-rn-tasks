@@ -138,11 +138,11 @@ export default function Profile() {
           <ProfileItem
             icon="information-circle-outline"
             title="À propos"
-            subtitle="Version 1.0.0"
+            subtitle="Version 1.1.6"
             onPress={() => {
               Alert.alert(
                 'My Todo App',
-                'Version 1.0.0\n\nApplication de gestion de tâches développée avec React Native et Expo.',
+                'Version 1.1.6\n\nApplication de gestion de tâches développée avec React Native et Expo.',
                 [{ text: 'OK' }]
               );
             }}
