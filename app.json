@@ -16,7 +16,8 @@
       "resizeMode": "contain"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.superflyman90.mytodoapplist"
     },
     "android": {
       "adaptiveIcon": {
