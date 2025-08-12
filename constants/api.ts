@@ -1,5 +1,15 @@
 // Configuration de l'API
-export const API_BASE_URL = 'http://localhost:8080/api';
+// En production, utiliser l'URL Vercel, en développement utiliser localhost
+import { Platform } from 'react-native';
+
+// Configuration de l'API
+const isDevelopment = __DEV__;
+
+export const API_BASE_URL = isDevelopment 
+  ? Platform.OS === 'android' 
+    ? 'http://10.0.2.2:8080/api'  // Émulateur Android
+    : 'http://localhost:8080/api'  // Simulateur iOS
+  : 'https://backend-api-tasks-1.onrender.com/api'; // Production Render
 
 export const API_ENDPOINTS = {
   // Auth
